@@ -15,4 +15,27 @@
       <a href="#"><img class="w-10" src="src/img/facebook-icon.png" alt=""></a>
     </div>
   </header>
+
+  <section class="flex justify-between items-center bg-[#DAFFFB] py-32 px-20">
+    <div class="flex flex-col gap-3">
+      <p class="text-[#04364A] text-3xl font-['Poppins'] font-medium">Hello, I'm Kevin</p>
+      <h1 class="text-[#04364A] text-7xl font-['Poppins'] font-bold">
+        <span class="block">Web</span>
+        <span class="block">Developer</span>
+      </h1>
+      <p class="text-[#04364A] text-3xl font-['Poppins'] font-medium">based in Estonia, Saaremaa</p>
+    </div>
+    <div>
+      <img class="w-[450px] rounded-[50%]" src="src/img/Nimetu.png" alt="">
+    </div>
+  </section>
+  <section class="bg-[#DAFFFB] py-20 px-20">
+    <div>
+      <h1 class="text-[#176B87] text-6xl font-['Poppins'] font-bold">about.</h1>
+      <p class="text-[#04364A] text-2xl font-['Poppins']">
+        <span>Hello, I'm Kevin Kangur. I'm an 18 year old student, studying web development at Kuressaare Ametikool (Kuressaare Regional Training Centre).</span>
+        <span></span>
+      </p>
+    </div>
+  </section>
 </template>
