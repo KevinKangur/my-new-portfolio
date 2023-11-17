@@ -30,12 +30,44 @@
     </div>
   </section>
   <section class="bg-[#DAFFFB] py-20 px-20">
-    <div>
-      <h1 class="text-[#176B87] text-6xl font-['Poppins'] font-bold">about.</h1>
+    <div class="flex flex-col gap-4">
+      <h1 class="text-[#176B87] text-7xl font-['Poppins'] font-bold">about.</h1>
       <p class="text-[#04364A] text-2xl font-['Poppins']">
-        <span>Hello, I'm Kevin Kangur. I'm an 18 year old student, studying web development at Kuressaare Ametikool (Kuressaare Regional Training Centre).</span>
-        <span></span>
+        <span class="block">Hello, I'm Kevin Kangur. I'm an 18 year old student, </span>
+        <span class="block">studying web development at Kuressaare Ametikool (Kuressaare Regional Training Centre).</span>
+        <span class="block">I've been studying software development for a little over an year.</span>
+        <span class="block">I'm always ready to learn new things.</span>
       </p>
+    </div>
+  </section>
+  <section class="bg-[#DAFFFB] py-20 px-20">
+    <div>
+      <div>
+        <h1 class="text-[#176B87] text-7xl font-['Poppins'] font-bold">work.</h1>
+      </div>
+      <div class="flex flex-col gap-8">
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">HTML and CSS</h2>
+        </div>
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">Tailwind CSS</h2>
+        </div>
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">JavaScript</h2>
+        </div>
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">Python</h2>
+        </div>
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">PHP</h2>
+        </div>
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">Vue</h2>
+        </div>
+        <div>
+          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">React</h2>
+        </div>
+      </div>
     </div>
   </section>
 </template>
