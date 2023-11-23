@@ -41,9 +41,27 @@
     </div>
   </section>
   <section class="bg-[#DAFFFB] py-20 px-20">
-    <div>
+    <div class="flex flex-col gap-8">
       <div>
         <h1 class="text-[#176B87] text-7xl font-['Poppins'] font-bold">work.</h1>
+      </div>
+      <div>
+        <h1 class="text-[#176B87] text-6xl font-['Poppins'] font-bold">most recent.</h1>
+        <div class="flex gap-10">
+          <div class="flex flex-col bg-[#64CCC5] rounded-[40px]">
+            <div>
+              <img class="rounded-t-[40px] w-[500px]" src="src/img/AI-startup-tool.png" alt="">
+            </div>
+            <div class="py-4 px-8">
+              <h1 class="text-[#04364A] text-4xl font-semibold">AI startup tool</h1>
+            </div>
+          </div>
+          <div class="flex flex-col bg-[#64CCC5] rounded-[40px] py-16 px-8 gap-12">
+            <div>
+
+            </div>
+          </div>
+        </div>
       </div>
       <div class="flex flex-col gap-8">
         <div>
