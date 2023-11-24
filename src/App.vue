@@ -52,13 +52,36 @@
             <div>
               <img class="rounded-t-[40px] w-[500px]" src="src/img/AI-startup-tool.png" alt="">
             </div>
-            <div class="py-4 px-8">
-              <h1 class="text-[#04364A] text-4xl font-semibold">AI startup tool</h1>
+            <div class="flex flex-col py-4 px-8 gap-6 h-20 overflow-hidden hover:h-full">
+              <div>
+                <h1 class="text-[#04364A] text-4xl font-semibold">AI startup tool</h1>
+              </div>
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <p>
+                    <span class="block">For this project we had to build a site</span>
+                    <span class="block">using Tailwind CSS following a Figma deisgn.</span>  
+                  </p>
+                  <p>
+                    <span class="block">I've been definitely enjoying using</span>
+                    <span class="block">Tailwind CSS over regualr CSS so I</span>
+                    <span class="block">did like this project since it let me</span>
+                    <span class="block">improve my skills with Tailwind CSS.</span>
+                  </p>
+                </div>
+                <div>
+                  <div>
+                    <a href="https://github.com/KevinKangur/AI-startup-tool">GitHub</a>
+                  </div>
+                  <div>
+                    <a href="https://www.figma.com/file/s1DkhIQz2nj6o4yu9YnjlO/Untitled?type=design&mode=design&t=Vh87zAXwC5jmnWoH-0">Figma</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="flex flex-col bg-[#64CCC5] rounded-[40px] py-16 px-8 gap-12">
             <div>
-
             </div>
           </div>
         </div>
