@@ -7,6 +7,7 @@
     <div class="flex gap-20">
       <a class="text-[#04364A] text-2xl font-['Poppins'] font-medium hover:text-[#176B87]" href="#">Home</a>
       <a class="text-[#04364A] text-2xl font-['Poppins'] font-medium hover:text-[#176B87]" href="#">About</a>
+      <a class="text-[#04364A] text-2xl font-['Poppins'] font-medium hover:text-[#176B87]" href="#">Skills</a>
       <a class="text-[#04364A] text-2xl font-['Poppins'] font-medium hover:text-[#176B87]" href="#">Work</a>
     </div>
     <div class="flex gap-10">
@@ -41,72 +42,105 @@
     </div>
   </section>
   <section class="bg-[#DAFFFB] py-20 px-20">
+    <div class="flex flex-col gap-20">
+      <div>
+        <h1 class="text-[#176B87] text-7xl font-['Poppins'] font-bold">skills.</h1>
+      </div>
+      <div class="grid grid-cols-9 grid-rows-2 justify-items-center gap-10">
+        <div class="col-start-2 flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/HTML5.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold">HTML</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/CSS3.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold">CSS</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/JavaScript.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold">JavaScript</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/Tailwind.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">Tailwind</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/Python.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">Python</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/MySQL.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">MySQL</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/PHP.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">PHP</p>
+          </div>
+        </div>
+        <div class="col-start-4 flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/Vitejs.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">Vite</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/NodeJS.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">Node</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center bg-[#64CCC5] rounded-[30px] w-40 p-5 justify-between">
+          <div>
+            <img src="src/img/Vue.png" alt="">
+          </div>
+          <div>
+            <p class="text-[#04364A] text-2xl font-['Poppins'] font-semibold text-center">Vue</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#DAFFFB] py-20 px-20">
     <div class="flex flex-col gap-8">
       <div>
         <h1 class="text-[#176B87] text-7xl font-['Poppins'] font-bold">work.</h1>
       </div>
       <div>
-        <h1 class="text-[#176B87] text-6xl font-['Poppins'] font-bold">most recent.</h1>
-        <div class="flex gap-10">
-          <div class="flex flex-col bg-[#64CCC5] rounded-[40px]">
-            <div>
-              <img class="rounded-t-[40px] w-[500px]" src="src/img/AI-startup-tool.png" alt="">
-            </div>
-            <div class="flex flex-col py-4 px-8 gap-6 h-20 overflow-hidden hover:h-full">
-              <div>
-                <h1 class="text-[#04364A] text-4xl font-semibold">AI startup tool</h1>
-              </div>
-              <div class="flex flex-col gap-4">
-                <div class="flex flex-col gap-2">
-                  <p>
-                    <span class="block">For this project we had to build a site</span>
-                    <span class="block">using Tailwind CSS following a Figma deisgn.</span>  
-                  </p>
-                  <p>
-                    <span class="block">I've been definitely enjoying using</span>
-                    <span class="block">Tailwind CSS over regualr CSS so I</span>
-                    <span class="block">did like this project since it let me</span>
-                    <span class="block">improve my skills with Tailwind CSS.</span>
-                  </p>
-                </div>
-                <div>
-                  <div>
-                    <a href="https://github.com/KevinKangur/AI-startup-tool">GitHub</a>
-                  </div>
-                  <div>
-                    <a href="https://www.figma.com/file/s1DkhIQz2nj6o4yu9YnjlO/Untitled?type=design&mode=design&t=Vh87zAXwC5jmnWoH-0">Figma</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col bg-[#64CCC5] rounded-[40px] py-16 px-8 gap-12">
-            <div>
-            </div>
-          </div>
-        </div>
+        <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">recent works.</h2>
       </div>
-      <div class="flex flex-col gap-8">
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">HTML and CSS</h2>
-        </div>
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">Tailwind CSS</h2>
-        </div>
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">JavaScript</h2>
-        </div>
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">Python</h2>
-        </div>
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">PHP</h2>
-        </div>
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">Vue</h2>
-        </div>
-        <div>
-          <h2 class="text-[#176B87] text-5xl font-['Poppins'] font-bold">React</h2>
+      <div>
+        <div class="bg-[#64CCC5]">
+
         </div>
       </div>
     </div>
