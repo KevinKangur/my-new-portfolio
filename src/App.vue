@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <header class="flex justify-between bg-[#DAFFFB] py-10 px-20">
+  <header class="flex justify-between bg-[#DAFFFB] w-full py-4 px-20 fixed">
     <h1 class="text-[#04364A] text-4xl font-['Poppins'] font-semibold">Kevin Kangur</h1>
     <div class="flex gap-20">
       <a class="text-[#04364A] text-2xl font-['Poppins'] font-medium hover:text-[#176B87]" href="#home">Home</a>
